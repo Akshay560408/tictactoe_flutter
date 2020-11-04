@@ -1,9 +1,9 @@
 import 'dart:math';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tictactoeapp/custom_dialog.dart';
-import 'package:tictactoeapp/game_button.dart';
+import 'package:tictactoeapp/model/game_button.dart';
+
 
 class HomePage extends StatefulWidget {
   @override
@@ -182,7 +182,6 @@ class _HomePageState extends State<HomePage> {
           title: new Text("Tic Tac Toe"),
         ),
         body: new Column(
-          mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             new Expanded(
